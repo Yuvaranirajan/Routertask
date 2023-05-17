@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ .home{
+    /* background-color:azure; */
+    background-image: url('https://img.freepik.com/free-vector/white-minimal-hexagons-background_79603-1452.jpg?w=996&t=st=1683249012~exp=1683249612~hmac=11664f4e119c5dd56473e0a4bbc6bc584aab85cada2fc8f5ecbaca8f4c4f0784');
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.home p{
+    /* text-align: center; */
+    color: red;
+    font-size: 50px;
+    font-weight: bold;
+    background-color:lightgray;
+    width: 500px;
+    height: 250px;
+    line-height: 250px;
+    border-radius: 40px 0px 40px 0px;
+    
+    
+} 

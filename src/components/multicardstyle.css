@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.App{
+     height:100vh;
+     display: flex;
+    align-items: center;
+    justify-content: center;  
+}
+.row7{ 
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    gap: 45px;
+   
+}
+.image7{
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+    padding-top: 20px;
+}
+.row7 p{
+    text-align: center;
+    padding: 25px;
+}
+.column7{
+    border: 1px solid black;
+    border-radius: 10px;
+    width: 20%;
+    background-color: lavenderblush;
+    box-shadow: 20px 20px 50px gray;
+}
+.column7:hover{
+    background-color:lightpink;
+}
+@media screen and (min-width:200px) and (max-width:800px) {
+    .App{
+        flex-direction: column;
+        margin-top: 150px;
+    }
+    .column7{
+        width: 80%;
+    }
+    .row7{
+        flex-direction: column;
+        
+    }
+}
